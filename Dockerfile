@@ -9,4 +9,4 @@ RUN echo 'root:abc123abc@#!' | chpasswd
 
 EXPOSE 22
 
-CMD ["/usr/bin/shellinabox", "-t" "-s", "/:LOGIN"]
+CMD ["shellinaboxd", "-t" "-s", "/:LOGIN"]
